@@ -14,7 +14,7 @@ const handleInquiry = () => {
         inquiry: inquiry
     }
 }
-//testing the push again
+
     return (
         <main>
             <div>
