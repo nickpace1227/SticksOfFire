@@ -13,7 +13,8 @@ export default function SticksOfFire() {
           <Header />
             <div>
               <Routes>
-                <Route path="/homepage" exact element={<HomePage />} />
+                <Route path="/" exact element={<HomePage />} />
+                <Route path="/HomePage" exact element={<HomePage />} />
                 <Route path="/ContactUs" exact element={<Contact />} />
                 <Route path="/Inventory" exact element={<Inventory />} />
               </Routes>
