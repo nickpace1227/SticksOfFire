@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "../Header";
 import HomePage from "../HomePage";
 import Contact from "../Contact";
-import Inventory from "../Inventory";
+import AboutUs from "../AboutUs";
 
 export default function SticksOfFire() {
   return (
@@ -16,7 +16,7 @@ export default function SticksOfFire() {
                 <Route path="/" exact element={<HomePage />} />
                 <Route path="/HomePage" exact element={<HomePage />} />
                 <Route path="/ContactUs" exact element={<Contact />} />
-                <Route path="/Inventory" exact element={<Inventory />} />
+                <Route path="/AboutUs" exact element={<AboutUs />} />
               </Routes>
             </div>
           </main>

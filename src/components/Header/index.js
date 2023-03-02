@@ -8,7 +8,7 @@ export default function Header() {
                 Sticks of Fire
             </div>
             <Link to="/homepage">HomePage</Link>
-            <Link to="/Inventory">Inventory</Link>
+            <Link to="/AboutUs">About Us</Link>
             <Link to="/ContactUs">Contact Us</Link>
         </main>
     )
