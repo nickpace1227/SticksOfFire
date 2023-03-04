@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <main>
-            <div>
+        <p>
+            <main>
                 Sticks of Fire
-            </div>
+            </main>
             <Link to="/homepage">HomePage</Link>
             <Link to="/AboutUs">About Us</Link>
             <Link to="/ContactUs">Contact Us</Link>
-        </main>
+        </p>
     )
 }

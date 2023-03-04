@@ -4,11 +4,12 @@ import Header from "../Header";
 import HomePage from "../HomePage";
 import Contact from "../Contact";
 import AboutUs from "../AboutUs";
+import { Wrapper } from "./styles";
 
 export default function SticksOfFire() {
   return (
-    <div>
       <BrowserRouter>
+        <Wrapper>
           <main>
           <Header />
             <div>
@@ -20,8 +21,8 @@ export default function SticksOfFire() {
               </Routes>
             </div>
           </main>
+        </Wrapper>
       </BrowserRouter>
-    </div>
   );
 }
 
